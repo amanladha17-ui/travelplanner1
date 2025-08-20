@@ -280,7 +280,6 @@ function App() {
                     {getTransportIcon(option.type)}
                     <span className="font-medium text-gray-900 capitalize">{option.type}</span>
                   </div>
-                  <span className="text-2xl font-bold text-blue-600">${option.price}</span>
                   <span className="text-2xl font-bold text-blue-600">₹{option.price}</span>
                 </div>
                 
