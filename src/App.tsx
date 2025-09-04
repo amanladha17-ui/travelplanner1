@@ -116,13 +116,13 @@ function App() {
   ];
 
   const destinationGuide: DestinationInfo = {
-    name: 'Paris, France',
-    attractions: ['Eiffel Tower', 'Louvre Museum', 'Notre-Dame Cathedral', 'Arc de Triomphe'],
-    culture: ['Café culture', 'Art and museums', 'Fashion capital', 'Culinary excellence'],
-    tips: ['Learn basic French phrases', 'Validate metro tickets', 'Tipping is optional'],
-    weather: 'Mild summers, cool winters',
-    currency: 'Euro (€)',
-    transport: 'Excellent metro and bus system'
+    name: 'Mumbai, India',
+    attractions: ['Gateway of India', 'Marine Drive', 'Chhatrapati Shivaji Terminus', 'Elephanta Caves'],
+    culture: ['Bollywood hub', 'Street food culture', 'Financial capital', 'Diverse communities'],
+    tips: ['Try local street food', 'Use Mumbai local trains', 'Bargain at markets'],
+    weather: 'Tropical climate, monsoons June-September',
+    currency: 'Indian Rupee (₹)',
+    transport: 'Local trains, buses, auto-rickshaws'
   };
 
   const getTransportIcon = (type: string) => {
