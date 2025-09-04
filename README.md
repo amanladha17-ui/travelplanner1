@@ -24,28 +24,28 @@ This project is being developed iteratively using Agile Sprints. The current ver
 
 ---
 
-## 🏗Tech Stack
+## Tech Stack
 
 -  [Vite](https://vitejs.dev/) – fast development & build tool  
 -  TypeScript – type-safe development  
 -  [Tailwind CSS](https://tailwindcss.com/) – styling framework  
 -  React (assumed from Vite setup) – frontend framework
   flowchart TD
-    subgraph UI["🌐 User Interface (Frontend)"]
+    subgraph UI[" User Interface (Frontend)"]
         A1[Origin & Destination Input]
         A2[Route & Cost Results Page]
         A3[Layover Suggestions]
         A4[Destination Guide]
     end
 
-    subgraph BL["⚙️ Backend Logic"]
+    subgraph BL[" Backend Logic"]
         B1[Route Planner Engine]
         B2[Cost Comparison Service]
         B3[Layover Recommendation Service]
         B4[Destination Info Service]
     end
 
-    subgraph EXT["🔗 External APIs / Services"]
+    subgraph EXT[" External APIs / Services"]
         C1[Flights API]
         C2[Trains API]
         C3[Buses & Local Transit API]
